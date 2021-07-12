@@ -1,0 +1,104 @@
+</style> 
+<style type=text/css >
+.blink_text {
+-webkit-animation-name: blinker;
+-webkit-animation-duration: 2s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+
+-moz-animation-name: blinker;
+-moz-animation-duration: 2s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+
+ animation-name: blinker;
+ animation-duration: 2s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+
+ color: red;
+}
+@-moz-keyframes blinker { 
+ 0% { opacity: 5.0;
+ }
+ 50% { opacity: 0.0;
+ }
+ 100% { opacity: 5.0;
+ }
+ }
+@-webkit-keyframes blinker { 
+ 0% { opacity: 5.0;
+ }
+ 50% { opacity: 0.0;
+ }
+ 100% { opacity: 5.0;
+ }
+ }
+@keyframes blinker { 
+ 0% { opacity: 5.0;
+ }
+ 50% { opacity: 0.0;
+ }
+ 100% { opacity: 5.0;
+ }
+ }
+ 
+ #copy {
+ 	color: lime;
+ 	font-weight: bold;
+ 	font-family: Kelly Slab;
+ }
+ #copy a {
+ 	color: white;
+ }
+ #copy a:hover {
+ 	color: blue;
+ }
+
+body{
+font-family: Kelly Slab;
+background-color: black;
+color:white;
+}
+#content tr:hover{
+background-color: blue;
+text-shadow:0px 0px 10px #fff;
+}
+#content .first{
+background-color: #15CFF4;
+}
+table{
+border: 1px #000000;
+}
+.s_tb{
+border:1px silver;
+}
+a{
+color:white;
+font-size: 19px;
+text-decoration:none;
+}
+a:hover{
+color:green;
+text-shadow:0px 0px 10px #ffffff;
+}
+input,select,textarea{
+border: 2px #000000 solid;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+h2{
+font-family:Kelly Slab;
+font-size:25px;
+color:white;
+}
+h3{
+font-size:35px;
+}
+h4{
+font-size:15px;
+font-family:Kelly Slab;
+color:white;
+}
+</style>
